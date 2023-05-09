@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Images/temp.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;0,500;0,700;0,800;0,900;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="head">Temperature Converter</h1>
+        <div class="main">
+            <div class="box">
+                <input type="text" class="txt" id="txt-1">
+                <select name="temp-1" id="temp-1" class="temp">
+                    <option value="cel" selected>Celcius</option>
+                    <option value="fr">Fahrenheit</option>
+                    <option value="kel">Kelvin</option>
+                </select>
+                <button class="btn" id="btn-1">Convert</button>
+            </div>
+            <div class="box">
+                <input type="text" class="txt" id="txt-2">
+                <select name="temp-1" id="temp-2" class="temp">
+                    <option value="cel">Celcius</option>
+                    <option value="fr" selected>Fahrenheit</option>
+                    <option value="kel">Kelvin</option>
+                </select>
+                <button class="btn" id="btn-2">Convert</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
